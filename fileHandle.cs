@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using Figgle;
 
 namespace FileManager
 {
@@ -9,7 +10,7 @@ namespace FileManager
 
         public static void Startup()
         {
-
+            Console.WriteLine(FiggleFonts.Standard.Render("File Viewer"));
             Console.WriteLine("C# File Manager Version 0.0.1 " + "by github.com/jeb495");
             Console.WriteLine("Enter the command LIST to see a list of commands, all commands are all uppercase");
 
